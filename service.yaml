@@ -1,0 +1,8 @@
+name: prometheus
+namespace: prometheus
+
+profiles:
+  stable: {}
+
+branch:
+  master: stable
