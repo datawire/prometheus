@@ -4,5 +4,5 @@ namespace: prometheus
 profiles:
   stable: {}
 
-branch:
+branches:
   master: stable
