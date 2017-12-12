@@ -162,8 +162,3 @@ data:
       - source_labels: [__meta_kubernetes_service_name]
         action: replace
         target_label: kubernetes_name
-      - source_labels: [__address__]
-        action: replace
-        target_label: instance
-        regex: (.+)
-        replacement: hodor
